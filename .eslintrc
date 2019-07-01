@@ -1,0 +1,13 @@
+{
+  "extends": ["airbnb-base", "plugin:@typescript-eslint/recommended"],
+  "rules": {
+    "no-tabs": "off",
+    "semi": "off",
+    "@typescript-eslint/indent": ["error", 2]
+  }
+  "env": {
+    "mocha": true,
+    "node": true,
+    "browser": true,
+  }
+}
